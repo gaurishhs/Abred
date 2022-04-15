@@ -1,0 +1,218 @@
+import {
+  DiscordMessages,
+  DiscordMessage,
+  DiscordEmbed,
+  DiscordEmbedDescription,
+  DiscordActionRow,
+  DiscordButton,
+  DiscordAttachments,
+} from "@skyra/discord-components-react";
+
+# VC Controller
+
+<DiscordMessages>
+  <DiscordMessage author="Abred" bot verified="true">
+    <DiscordEmbed
+      slot="embeds"
+      color="#5CE6FF"
+      embedTitle="Abred VC Controller"
+    >
+      <DiscordEmbedDescription slot="description">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://abred.bar/invite"
+        >
+          Invite
+        </a>{" "}
+        |{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://abred.bar/support"
+        >
+          Support
+        </a>{" "}
+        |{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://docs.abred.bar"
+        >
+          Documentation
+        </a>{" "}
+        |{" "}
+        <a target="_blank" rel="noopener noreferrer" href="https://abred.bar">
+          Website
+        </a>
+        <br />
+        <br />
+        <b>Note:</b> If you just type in the commands here without any other thing
+        it will work!
+        <br />
+        <br />
+        <img
+          src="https://cdn.discordapp.com/emojis/950769296752132177.webp?size=96&quality=lossless"
+          width="25"
+        />
+        <code>
+          <a href="https://docs.abred.bar/controller#lock" target="_blank">
+            Locks
+          </a>
+        </code> your voice Channel
+        <br />
+        <img
+          src="https://cdn.discordapp.com/emojis/950769348337877032.webp?size=96&quality=lossless"
+          width="25"
+        />
+        <code>
+          <a href="https://docs.abred.bar/controller#unlock" target="_blank">
+            Unlocks
+          </a>
+        </code>{" "}
+        your voice Channel
+        <br />
+        <img
+          src="https://cdn.discordapp.com/emojis/950769457796612156.webp?size=96&quality=lossless"
+          width="25"
+        />
+        Toggles <code>
+          <a
+            href="https://docs.abred.bar/controller#push-to-talk"
+            target="_blank"
+          >
+            Push To Talk
+          </a>
+        </code> for your voice Channel
+        <br />
+        <img
+          src="https://cdn.discordapp.com/emojis/950769641737818162.webp?size=96&quality=lossless"
+          width="25"
+        />
+        Increases{" "}
+        <code>
+          <a
+            href="https://docs.abred.bar/controller#increase-limit"
+            target="_blank"
+          >
+            user limit
+          </a>
+        </code>{" "}
+        for your voice Channel
+        <br />
+        <img
+          src="https://cdn.discordapp.com/emojis/950769557323259914.webp?size=96&quality=lossless"
+          width="25"
+        />
+        Decreases <code>
+          <a
+            href="https://docs.abred.bar/controller#decrease-limit"
+            target="_blank"
+          >
+            user limit
+          </a>
+        </code> for your voice Channel
+        <br />
+        <img
+          src="https://cdn.discordapp.com/emojis/950769392063508501.webp?size=96&quality=lossless"
+          width="25"
+        />
+        <code>
+          <a href="https://docs.abred.bar/controller#hide" target="_blank">
+            Hides
+          </a>
+        </code>{" "}
+        your voice Channel from other members
+        <br />
+        <img
+          src="https://cdn.discordapp.com/emojis/957916957422788618.webp?size=96&quality=lossless"
+          width="25"
+        />
+        <code>
+          <a href="https://docs.abred.bar/controller#show" target="_blank">
+            Show
+          </a>
+        </code> your voice Channel to other members
+        <br />
+        <img
+          src="https://cdn.discordapp.com/emojis/948855713541812224.webp?size=96&quality=lossless"
+          width="25"
+        />
+        Get{" "}
+        <code>
+          <a href="https://docs.abred.bar/controller#help" target="_blank">
+            help
+          </a>
+        </code>{" "}
+        with usage of controller
+      </DiscordEmbedDescription>
+    </DiscordEmbed>
+    <DiscordAttachments slot="components">
+      <DiscordActionRow>
+        <DiscordButton
+          type="secondary"
+          emoji="https://cdn.discordapp.com/emojis/950769296752132177.webp?size=96&quality=lossless"
+        ></DiscordButton>
+        <DiscordButton
+          type="secondary"
+          emoji="https://cdn.discordapp.com/emojis/950769348337877032.webp?size=96&quality=lossless"
+        ></DiscordButton>
+        <DiscordButton
+          type="secondary"
+          emoji="https://cdn.discordapp.com/emojis/950769457796612156.webp?size=96&quality=lossless"
+        ></DiscordButton>
+        <DiscordButton
+          type="secondary"
+          emoji="https://cdn.discordapp.com/emojis/950769641737818162.webp?size=96&quality=lossless"
+        ></DiscordButton>
+        <DiscordButton
+          type="secondary"
+          emoji="https://cdn.discordapp.com/emojis/950769557323259914.webp?size=96&quality=lossless"
+        ></DiscordButton>
+      </DiscordActionRow>
+      <DiscordActionRow>
+          <DiscordButton
+          type="secondary"
+          emoji="https://cdn.discordapp.com/emojis/950769392063508501.webp?size=96&quality=lossless"
+        ></DiscordButton>
+        <DiscordButton
+          type="secondary"
+          emoji="https://cdn.discordapp.com/emojis/957916957422788618.webp?size=96&quality=lossless"
+        ></DiscordButton>
+        <DiscordButton
+          type="secondary"
+          emoji="https://cdn.discordapp.com/emojis/948855713541812224.webp?size=96&quality=lossless"
+        ></DiscordButton>
+        <DiscordButton
+          type="secondary"
+          url="https://abred.bar/manage"
+        >Manage Voice</DiscordButton>
+      </DiscordActionRow>
+    </DiscordAttachments>
+  </DiscordMessage>
+</DiscordMessages>
+
+## Lock
+- Lock basically turns off the voice connect permission for `@everyone` role of the guild, which prevents other members from joining the channel.
+
+## Unlock
+- Unlock is just the opposite of lock, It turns on the voice connect permission for `@everyone` role of the guild, which allows other members to join your channel.
+
+## Push to talk
+- Push to talk forces users to push a button on their discord client to speak.
+
+## Increase limit
+- Increase limit increases the user limit of a channel, Basically if the user limit is 1 then only 1 member can be present in the voice channel.
+
+# Decrease limit
+- Increase decreases increases the user limit of a channel
+
+# Hide
+- This hides your voice channel from other members, i.e. No other member except for members with `Administrator` permission can see your channel.
+
+# Show
+- This shows your voice channel to all other members 
+
+# Help
+- This redirects the user to this page
+
